@@ -1,36 +1,86 @@
 # Walmart Sales Analysis
 
-A data-driven analytics project focused on analyzing historical Walmart retail data to uncover seasonal sales trends, evaluate the impact of macroeconomic factors, and optimize inventory management.
+## Project Overview
 
-## 🚀 Project Overview
-This repository contains a comprehensive sales analysis of Walmart retail branches. By exploring historical transaction patterns, this project aims to provide actionable business intelligence regarding product performance, customer demographics, and demand forecasting.
+This project analyzes Walmart sales data using Python and Pandas to discover business insights, identify sales trends, understand customer purchasing behavior, and evaluate profitability across products, categories, cities, and states.
 
-## 📊 Key Insights & Objectives
-* **Seasonal & Holiday Trends:** Quantify how major holiday weeks impact regional weekly revenue.
-* **Macroeconomic Drivers:** Evaluate how external factors like the Consumer Price Index (CPI), Fuel Prices, and Unemployment Rates affect consumer spending.
-* **Operational Efficiency:** Identify top-performing product lines and optimize inventory based on branch-specific sales velocity.
+---
 
-## 🛠️ Tech Stack & Tools
-* **Language:** Python 3.x
-* **Data Manipulation:** Pandas, NumPy
-* **Data Visualization:** Matplotlib, Seaborn
-* **Database Management:** SQL (MySQL/PostgreSQL) *[Remove if not applicable]*
-* **Machine Learning:** Scikit-learn (Regression & Forecasting models) *[Remove if not applicable]*
-* **BI Dashboarding:** Tableau / Power BI *[Remove if not applicable]*
+## Objectives
 
-## 📂 Project Structure
-* `data/` – Contains raw and cleaned datasets.
-* `notebooks/` – Jupyter notebooks detailing Data Wrangling, EDA, and Modeling.
-* `scripts/` – Modular Python or SQL scripts for pipeline automation.
-* `dashboards/` – Interactive dashboard screenshots or source files.
+- Analyze sales performance
+- Analyze profit trends
+- Identify top-selling products
+- Find the most profitable products
+- Analyze sales by category
+- Analyze monthly sales trends
+- Discover top-performing cities and states
 
-## 📈 Getting Started
-1. Clone the repository:
-   ```bash
-   git clone https://github.com
-   ```
-2. Install required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the analysis notebook inside the `notebooks/` folder.
+---
+
+## Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## Dataset Information
+
+Dataset contains:
+
+- Order Details
+- Customer Information
+- Product Details
+- Sales
+- Profit
+- Quantity
+- Order Date
+- Ship Date
+
+---
+
+## Visualizations
+
+- Monthly Sales Trend
+- Monthly Profit Trend
+- Sales by Category
+- Profit by Category
+- Sales vs Profit
+- Top Products by Sales
+- Top Profitable Products
+- Top Cities by Sales
+- Top States by Sales
+- Top States by Profit
+
+---
+
+## Business Insights
+
+- Technology products generated the highest sales.
+- Some products generated high sales but lower profit.
+- Certain states contributed significantly more profit.
+- Sales varied across different months.
+- The company should focus more on profitable products than only high-selling products.
+
+---
+
+## Conclusion
+
+This project demonstrates Exploratory Data Analysis (EDA), business intelligence techniques, and data visualization skills using Python.
+
+---
+
+## Skills Learned
+
+- Data Cleaning
+- Data Visualization
+- Exploratory Data Analysis
+- Business Analytics
+- Pandas
+- Matplotlib
+- GroupBy Operations
+- Business Insight Generation
